@@ -1,0 +1,81 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+.header-search-input{
+    width: 70%;
+    margin-left: 110px;
+    margin-top: 30px;
+    padding: 0 80px 0 10px;
+    background-color:transparent;
+    font-weight: 600;
+    color: #ec5a62;
+    border: none;
+    opacity: 0.4;
+    outline: 0;
+    font-size: 6em;
+}
+.header-search-submit{
+    border:none;
+    background-color:inherit;  
+
+}
+h2.column-title{
+    color: #c2c2c2;
+    margin-left: 120px;
+    font-size: 18px;
+    font-weight: 750;
+
+
+}
+.main-search .column{
+    width: 30%;
+    display: inline-block;
+    margin-top: 30px;  
+
+}
+
+.people li{
+    margin-left: 80px;
+    list-style-type: none;
+    width: 60%;
+   }
+
+.popular{
+    margin-left: 20%;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 40%;
+
+}
+.recent{
+    margin-left: 20%;
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    width: 40%;
+}
+
+a {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 25px;
+    margin-top: 5px;
+    width: 275px;
+    text-decoration: none;
+    color: #acacac;
+    border-radius:3px;
+    background-color: #ebebec;
+    border:none;
+    font-weight: bold;
+
+}
+a:hover{
+    background-color: #c2c2c2;
+    color: #ec5a62;
+}
+.circle{
+    border-radius: 50%;
+}
